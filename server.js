@@ -10,14 +10,7 @@ const cors = require('cors');
 
 app.use(cors()) // after you initialize your express app instance
 
-
-
 // a server endpoint 
-
-
-
-
-
 
 
 app.get('/', // our endpoint name
@@ -30,7 +23,7 @@ app.get('/osama', // our endpoint name
   res.send('Welecom Osama') // our endpoint function response
 })
 
-app.get('/weather-data',(req,response) =>{
+app.get('/weather',(req,response) =>{
 response.json(data)
 
 });

@@ -20,7 +20,7 @@ app.get(
     res.send("Hello World"); // our endpoint function response
   }
 );
-
+ 
 app.get("/weather",weatherController );
 
 app.get("/movies", moviesController)
